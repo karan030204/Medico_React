@@ -1,0 +1,57 @@
+.contact{
+    position: relative;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-page {
+  display: flex;
+  justify-content: center;
+  margin: 0em 9em;
+  gap: 0.5em;
+}
+.contact-box {
+  position: relative;
+  background-color: #2e3192;
+  width: 50%;
+  height: auto;
+  padding: 2em;
+}
+.contact-img {
+  display: flex;
+  justify-content: center;
+  margin-top: -0.5em;
+}
+
+.place-details .location,
+.phone {
+  color: #ed1c24;
+  font-family: 'gotham-bold';
+}
+
+.place-details .address,
+.number {
+  width: 60%;
+  font-size: 15px;
+  color: white;
+  font-weight: 100;
+  margin: 0;
+  font-family: 'gotham-book';
+}
+.place-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  
+}
+
+.scanner {
+  position: absolute;
+  right: 13px;
+  bottom: 13px;
+}
+
+.scanner .scan-box {
+  box-sizing: border-box;
+}

@@ -1,0 +1,19 @@
+.footer{
+    background-color: #F0F0F7;
+    width: 100%;
+    height: auto;
+}
+.footer-content{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3em;
+
+}
+
+.footer-content h6{
+    font-weight: 100;
+    font-family: 'gotham-book';
+    width: 50%;
+    font-size: 14px;
+    text-transform: uppercase !important;
+}

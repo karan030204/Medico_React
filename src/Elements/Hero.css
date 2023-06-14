@@ -1,0 +1,97 @@
+.hero {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 110vh;
+
+}
+
+
+
+.hero-box {
+  bottom: 79px;
+  right: 0;
+  background-color: rgb(249, 249, 249);
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 998;
+  margin-right: 10em;
+  border-bottom: 3px solid #2e3192;
+  
+}
+
+.hero-box .box-navbar {
+  background-color: #2e3192;
+  width: auto;
+}
+
+.box-navbar h3 {
+  margin: 0;
+  color: white;
+  padding: 1em;
+  font: bolder;
+  /* font-weight: 300; */
+}
+
+.box-fields {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.box-fields input {
+  padding: 1em;
+  font-family: sans-serif;
+  font: bold;
+}
+.box-fields .name-field,
+.info-field,
+.contactDetails {
+  display: flex;
+  margin: 0.5em;
+  gap: 5px;
+}
+
+.box-fields .checkbox {
+  margin: 0.5em;
+}
+
+.box-fields .doctorName {
+  margin: 0.5em;
+}
+.doctorName input {
+  width: 90%;
+}
+.box-fields .validation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.validation .submit-btn {
+  margin: 1em;
+}
+
+.submit-btn button {
+  padding: 10px 25px;
+  font-size: 1.1em;
+  border-radius: 1.5em;
+  background: #ed1c24;
+  border: none;
+  color: white;
+  font-weight: 900;
+  font-family: "Nunito";
+  cursor: pointer;
+  z-index: 999;
+}
+
+#best_day::before {
+  content: "Best Day";
+  margin-right: 1em;
+  font-family: "gotham";
+}
+
+#best_time::before {
+  content: "Time to Contact";
+  margin-right: 1em;
+  font-family: "gotham";
+}

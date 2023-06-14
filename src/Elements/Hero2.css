@@ -1,0 +1,61 @@
+.hero2-details {
+  position: relative;
+  top: -13.5em;
+  margin: 5em;
+  margin-top: 5.5em;
+  
+}
+.span-flex {
+  display: flex;
+  margin-top: 0.2em;
+}
+.hero2-details h3 {
+  color: #2e3192;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-family: "gotham-bold";
+  font-size: 35px;
+}
+.hero2-details .title-details h4 {
+  color: #ed1c24;
+}
+
+.hero2-details p {
+  margin-top:1em ;
+  font-family: "gotham-book";
+  letter-spacing:0.9px;
+  display: block;
+
+ 
+
+
+
+}
+
+.works {
+  /* margin: 5em; */
+  margin-top: 2em;
+}
+
+.works .works-title h1 {
+  color: #ed1c24;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 40px;
+  font-family: "gotham-bold";
+  text-transform: uppercase !important;
+}
+
+.works h6 {
+  color: #2e3192;
+  text-align: center;
+  font-size: 1.2em;
+  
+}
+
+.works p {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
